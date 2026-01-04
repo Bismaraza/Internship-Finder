@@ -4,8 +4,14 @@ Internship Finder is a Java-based desktop application designed to connect studen
 This project was converted and enhanced from an Online Job Portal into a complete Internship Finder system.
 
 ---
-## View 
-(https://github.com/Bismaraza/Internship-Finder/blob/b62bb4dbe2dab6c5333c6c6398dfdb3efba3c8ab/View.png)
+## Application Interface
+
+Below is a preview of the Internship Finder user interface:
+
+![Internship Finder UI](https://github.com/Bismaraza/Internship-Finder/blob/b62bb4dbe2dab6c5333c6c6398dfdb3efba3c8ab/View.png?raw=true)
+
+---
+
 ## Objectives
 
 - Provide a centralized platform for internship opportunities
