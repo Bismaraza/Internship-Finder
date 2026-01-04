@@ -58,47 +58,11 @@ This project was converted and enhanced from an Online Job Portal into a complet
 
 ---
 
-## Project Architecture
+## Project Structure
 
-The project follows a layered and modular structure:
+The project follows a clean and modular architecture. Utility classes are placed in a dedicated utils package to handle validation, email handling, and notifications. The core data structure of the application is defined in the model package, which contains the Internship entity. Data handling and in-memory storage logic are managed inside the repository package.
 
-src/
-├── utils/
-│ ├── ValidationUtils.java
-│ ├── EmailUtils.java
-│ └── NotificationUtils.java
-│
-├── model/
-│ └── Internship.java
-│
-├── repository/
-│ └── InternshipRepository.java
-│
-├── view/
-│ ├── admin/
-│ │ ├── AdminDashboardView.java
-│ │ └── ApproveInternshipsView.java
-│ │
-│ ├── employer/
-│ │ ├── EmployerProfileView.java
-│ │ ├── PostInternshipView.java
-│ │ └── ViewApplicantsView.java
-│ │
-│ └── user/
-│ ├── LoginView.java
-│ ├── RegisterView.java
-│ ├── ProfileView.java
-│ └── InternshipSearchView.java
-│
-├── viewmodel/
-│ ├── AuthViewModel.java
-│ ├── InternshipViewModel.java
-│ ├── EmployerViewModel.java
-│ ├── AdminViewModel.java
-│ └── UserViewModel.java
-│
-└── Main.java
-
+The user interface is organized under the view package and is further divided into admin, employer, and user sections to clearly separate responsibilities and workflows. Application logic and business rules are implemented in the viewmodel package, ensuring proper separation between UI and logic. The application execution starts from the Main class, which acts as the entry point of the system.
 
 ---
 
