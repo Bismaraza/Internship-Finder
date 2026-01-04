@@ -91,6 +91,7 @@ The user interface is organized under the view package and is further divided in
 ```bash
 javac -d out src/**/*.java
 java -cp out Main
+```bash
 
 ## Notes
 
