@@ -86,13 +86,6 @@ The user interface is organized under the view package and is further divided in
 3. Open `Main.java`
 4. Run the project
 
-### Using Command Line
-
-```bash
-javac -d out src/**/*.java
-java -cp out Main
-```bash
-
 ## Notes
 
 - Only `.java` source files are included in the `src` directory  
